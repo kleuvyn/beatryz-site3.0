@@ -588,7 +588,7 @@ export default function Portfolio() {
           whileInView={{ opacity: 1 }}
           className="py-20 bg-gradient-to-r from-purple-600 to-turquoise-600 text-white"
         >
-          <div c>
+          <div>
             <motion.h2
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -652,7 +652,7 @@ export default function Portfolio() {
         </motion.section>
 
         {/* Footer */}
-        <footer className="py-8 bg-gray-900 dark:bg-black text-white text-center" className="container mx-auto px-4 text-center">
+        <footer className="py-8 bg-gray-900 dark:bg-black text-white mx-auto px-4 text-center">
           <div className="container mx-auto px-4">
             <p className="text-gray-400">© 2025  Kleuvyn</p>
           </div>
