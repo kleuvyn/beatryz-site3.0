@@ -648,7 +648,7 @@ export default function Portfolio() {
           whileInView={{ opacity: 1 }}
           className="py-20 bg-gradient-to-r from-purple-600 to-turquoise-600 text-white"
         >
-          <iframe height="430" width="350" src="https://bot.dialogflow.com/6f46fd94-25dd-481e-9a01-82310da26894"></iframe>
+          <iframe width="350" height="430" allow="microphone;" src="https://console.dialogflow.com/api-client/demo/embedded/6f46fd94-25dd-481e-9a01-82310da26894"></iframe>
         </motion.section>
 
         {/* Footer */}
