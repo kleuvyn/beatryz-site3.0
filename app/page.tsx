@@ -378,7 +378,7 @@ export default function Portfolio() {
               <p className="text-xl text-gray-600 dark:text-gray-400 mb-12 max-w-2xl mx-auto">{t.hero.subtitle}</p>
               <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
                 <Button
-                  onClick={() => scrollToSection("contact")}
+                  onClick={() => scrollToSection("chat")}
                   className="bg-gradient-to-r from-purple-600 to-turquoise-600 hover:from-purple-700 hover:to-turquoise-700 text-white px-8 py-4 text-lg rounded-full shadow-lg"
                 >
                   {t.hero.cta}
@@ -641,6 +641,14 @@ export default function Portfolio() {
             </motion.div>
           </div>
         </motion.section>
+
+        <motion.section
+          id="chat"
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          className="py-20 bg-gradient-to-r from-purple-600 to-turquoise-600 text-white"
+        >
+          <iframe height="430" width="350" src="https://bot.dialogflow.com/6f46fd94-25dd-481e-9a01-82310da26894"></iframe>
 
         {/* Footer */}
         <footer className="py-8 bg-gray-900 dark:bg-black text-white text-center">
