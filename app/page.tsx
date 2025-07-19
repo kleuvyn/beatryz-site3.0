@@ -649,6 +649,7 @@ export default function Portfolio() {
           className="py-20 bg-gradient-to-r from-purple-600 to-turquoise-600 text-white"
         >
           <iframe height="430" width="350" src="https://bot.dialogflow.com/6f46fd94-25dd-481e-9a01-82310da26894"></iframe>
+        </motion.section>
 
         {/* Footer */}
         <footer className="py-8 bg-gray-900 dark:bg-black text-white text-center">
