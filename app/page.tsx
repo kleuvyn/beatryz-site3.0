@@ -592,7 +592,7 @@ export default function Portfolio() {
             <motion.h2
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
-              className="text-4xl font-bold mb-6"
+              className="text-4xl font-bold text-center mb-6"
             >
               {t.contact.title}
             </motion.h2>
@@ -647,8 +647,9 @@ export default function Portfolio() {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           className="py-20 bg-gradient-to-r from-purple-600 to-turquoise-600 text-white"
+          style={{display: 'flex', justifyContent: 'center'}}
         >
-          <iframe width="350" height="430" allow="microphone;" src="https://console.dialogflow.com/api-client/demo/embedded/6f46fd94-25dd-481e-9a01-82310da26894"></iframe>
+          <iframe width="75%" height="430" allow="microphone;" src="https://console.dialogflow.com/api-client/demo/embedded/6f46fd94-25dd-481e-9a01-82310da26894"></iframe>
         </motion.section>
 
         {/* Footer */}
