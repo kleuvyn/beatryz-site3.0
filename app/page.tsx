@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import './globals.css';
 import Link from "next/link"
+import { ChatbotButton } from "@/components/chatbot-button"
 
 
 // Language Context
@@ -642,16 +643,6 @@ export default function Portfolio() {
           </div>
         </motion.section>
 
-        <motion.section
-          id="chat"
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          className="py-20 bg-gradient-to-r from-purple-600 to-turquoise-600 text-white"
-          style={{display: 'flex', justifyContent: 'center'}}
-        >
-          <iframe width="75%" height="430" allow="microphone;" src="https://console.dialogflow.com/api-client/demo/embedded/6f46fd94-25dd-481e-9a01-82310da26894"></iframe>
-        </motion.section>
-
         {/* Footer */}
         <footer className="py-8 bg-gray-900 dark:bg-black text-white mx-auto px-4 text-center">
           <div className="container mx-auto px-4">
@@ -659,6 +650,8 @@ export default function Portfolio() {
           </div>
         </footer>
       </div>
+      {/* Chatbot Button */}
+        <ChatbotButton />
     </div>
   )
 }
