@@ -1,13 +1,17 @@
 "use client";
 
-import { useState, useEffect, useMemo, useRef } from "react";
+import { useState, useEffect, useRef, useMemo } from "react";
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
 import { MessageSquare, Minus, Square } from "lucide-react";
 
-const RASA_ENDPOINT =
-  process.env.NEXT_PUBLIC_RASA_ENDPOINT ||
-  "http://localhost:5005/webhooks/rest/webhook";
+const RASA_API_BASE_URL = process.env.NEXT_PUBLIC_RASA_API_URL;
+
+const RASA_ENDPOINT = 
+  RASA_API_BASE_URL 
+    ? `${RASA_API_BASE_URL}/webhooks/rest/webhook` 
+    : "http://localhost:5005/webhooks/rest/webhook";
+
 
 const terminalBg = "bg-gray-50";
 const terminalTextPrimary = "text-gray-900";
