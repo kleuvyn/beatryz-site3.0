@@ -28,10 +28,8 @@ const translations = {
     },
     about: {
       title: "Sobre Mim",
-      text: `Sou Beatryz Kleuvyn, profissional em transição para a área de Ciência de Dados, com paixão por tecnologia, educação e impacto social. Sou formada em Análise e Desenvolvimento de Sistemas, estudante de Licenciatura em Matemática e pós-graduanda em Ciência de Dados e Inteligência Artificial e MBA em Tecnologia para Negócios (AI, DS e Big Data).
-      
+      text: `Sou Beatryz Kleuvyn, profissional com paixão por tecnologia, educação e impacto social, em busca da minha primeira oportunidade na área de tecnologia. Sou formada em Análise e Desenvolvimento de Sistemas, pós-graduada em Ciência de Dados e Inteligência Artificial e MBA em Tecnologia para Negócios (AI, DS e Big Data) e estudante de Licenciatura em Matemática. 
       Atualmente estou aprofundando meus conhecimentos em análise de dados — aprendendo na prática sobre coleta, limpeza, visualização e interpretação de dados — como base sólida para minha futura atuação como Cientista de Dados. Estou desenvolvendo projetos que envolvem chatbots com inteligência artificial, fluxos de atendimento e análise de comportamento de usuários, sempre guiada por dados reais e propósito social.
-      
       Meu foco é construir soluções que unam tecnologia, educação e empatia, com curiosidade constante e desejo genuíno de aprender e contribuir. Estou aberta a oportunidades que valorizem o aprendizado contínuo e o desenvolvimento de produtos ou estratégias baseadas em dados.`,
       highlight: "Dados + Educação = Impacto",
     },
@@ -45,16 +43,17 @@ const translations = {
       current: "Atual",
       years: "anos",
       list: [
-                  {
+               {
                     title: "Analista de Dados - Voluntária",
                     company: "Stoá",
                     period: "jul 2025 - Atual",
                     description: `Atuação voluntária na Stoá, com foco na criação de um chatbot com Inteligência Artificial voltado ao atendimento de doadores.
-                    Responsável por atividades de análise de dados;
-                    Levantamento e categorização de perguntas frequentes recebidas pelo chat;
-                    Estruturação de dados de interações para análise de comportamento dos usuários;
-                    Apoio na criação de fluxos lógicos de resposta com base em dados reais;
-                    Identificação de padrões nas dúvidas mais recorrentes para auxiliar no treinamento do chatbot.`,
+                    - Responsável por:
+                    - Análise de dados relacionados às interações no chat;
+                    - Levantamento e categorização de perguntas frequentes;
+                    - Estruturação de dados para análise de comportamento dos usuários;
+                    - Apoio na criação de fluxos lógicos de resposta baseados em dados reais;
+                    - Identificação de padrões e insights para otimizar o treinamento do chatbot`
                   },{
                     title: "Professora Ensino Médio",
                     company: "Colégio Ápice Educacional",
@@ -114,11 +113,11 @@ const translations = {
   },
   about: {
     title: "About Me",
-    text: `I'm Beatryz Kleuvyn, a professional transitioning into Data Science, with a passion for technology, education, and social impact. I hold a degree in Systems Analysis and Development, study Mathematics Teaching, and I'm currently pursuing postgraduate studies in Data Science & Artificial Intelligence, as well as an MBA in Business Technology (AI, DS, and Big Data).
+    text: `I’m Beatryz Kleuvyn, a professional passionate about technology, education, and social impact, seeking my first opportunity in the tech field. I hold a degree in Systems Analysis and Development, a postgraduate degree in Data Science and Artificial Intelligence, an MBA in Business Technology (AI, DS, and Big Data), and I’m currently pursuing a degree in Mathematics Education.
 
-    Currently, I’m deepening my knowledge in data analysis — learning hands-on about data collection, cleaning, visualization, and interpretation — building a solid foundation for my future role as a Data Scientist. I'm developing projects involving AI-powered chatbots, user interaction flows, and behavior analysis, always guided by real data and a strong sense of purpose.
+    I’m currently deepening my knowledge in data analysis — learning hands-on about data collection, cleaning, visualization, and interpretation — building a solid foundation for my future role as a Data Scientist. I’ve been developing projects involving AI chatbots, automated service flows, and user behavior analysis, always guided by real data and social purpose.
 
-    My focus is to create solutions that connect technology, education, and empathy, driven by constant curiosity and a genuine desire to learn and contribute. I'm open to opportunities that value continuous learning and the development of data-driven products or strategies.`,
+    My focus is on creating solutions that combine technology, education, and empathy, driven by constant curiosity and a genuine desire to learn and contribute. I’m open to opportunities that value continuous learning and the development of data-driven products and strategies.`,
     highlight: "Data + Education = Impact",
   },
   skills: {
@@ -199,11 +198,11 @@ const translations = {
     },
     about: {
       title: "Sobre mí",
-      text: `Soy Beatryz Kleuvyn, una profesional en transición al campo de la Ciencia de Datos, impulsada por la pasión por la tecnología, la educación y el impacto social. Tengo un título en Análisis y Desarrollo de Sistemas, estudio Licenciatura en Matemáticas y curso posgrados en Ciencia de Datos & Inteligencia Artificial, además de un MBA en Tecnología para los Negocios (IA, CD y Big Data).
+      text: `Soy Beatryz Kleuvyn, una profesional apasionada por la tecnología, la educación y el impacto social, en busca de mi primera oportunidad en el área de tecnología. Tengo un título en Análisis y Desarrollo de Sistemas, una especialización en Ciencia de Datos e Inteligencia Artificial, un MBA en Tecnología para Negocios (IA, DS y Big Data) y actualmente estudio Licenciatura en Matemáticas.
 
-      Actualmente estoy profundizando mis conocimientos en análisis de datos: aprendiendo en la práctica sobre recolección, limpieza, visualización e interpretación de datos, como base sólida para mi futuro como Científica de Datos. Estoy desarrollando proyectos que involucran chatbots con IA, análisis de comportamiento de usuarios y flujos de servicios basados en datos reales, siempre con propósito social.
+      Actualmente estoy profundizando mis conocimientos en análisis de datos, aprendiendo en la práctica sobre recolección, limpieza, visualización e interpretación de datos, construyendo una base sólida para mi futura actuación como Científica de Datos. Desarrollé proyectos que involucran chatbots con inteligencia artificial, flujos automatizados de atención y análisis de comportamiento de usuarios, siempre guiada por datos reales y un propósito social.
 
-      Mi enfoque es construir soluciones que combinen tecnología, educación y empatía, con curiosidad constante y un verdadero deseo de aprender y contribuir. Estoy abierta a oportunidades que valoren el aprendizaje continuo y el desarrollo de productos o estrategias basadas en datos.`,
+      Mi enfoque es construir soluciones que unan tecnología, educación y empatía, con una curiosidad constante y un deseo genuino de aprender y contribuir. Estoy abierta a oportunidades que valoren el aprendizaje continuo y el desarrollo de productos o estrategias basadas en datos.`,
       highlight: "Datos + Educación = Impacto",
     },
     skills: {

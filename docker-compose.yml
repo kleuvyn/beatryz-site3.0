@@ -1,0 +1,27 @@
+version: "3.9"
+
+services:
+  rasa:
+    image: rasa/rasa:latest
+    command: run --enable-api --cors "*"
+    ports:
+      - "5005:5005"
+    volumes:
+      - ./rasa:/app
+    networks:
+      - chatnet
+
+  frontend:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - NEXT_PUBLIC_RASA_ENDPOINT=http://rasa:5005/webhooks/rest/webhook
+    depends_on:
+      - rasa
+    networks:
+      - chatnet
+
+networks:
+  chatnet:
+    driver: bridge
